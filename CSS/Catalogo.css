@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Winky Sans", sans-serif;
+}
 header{
-    background-color: #E5C3D1;
+    background-color: #f098a5;
 }
 header img{
     width: 150px;
@@ -18,8 +22,88 @@ nav{
 nav a{
     text-decoration: none;
     color: #613F75;
+    border: 2px solid;
+    padding: 7px;
 }
 nav :hover{
     font-size: 21px;
     color: #926ea7;
+    border: none;
+}
+main{
+    background-color: #E5C3D1;
+}
+.tarjetas-1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tarjetas-1 .card-content{
+    border: 2px solid;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tarjetas-1 .price{
+    color: #f879ed;
+}
+.tarjetas-1 :hover{
+    background-color: #fdd6e6;
+}
+.tarjetas-2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tarjetas-2 .card-content{
+    border: 2px solid;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tarjetas-2 .price{
+    color: #f879ed;
+}
+.tarjetas-2 :hover{
+    background-color: #fdd6e6;
+}
+.card-content img{
+    width: 150px; height: 150px;
+}
+.tarjetas :hover{
+    background-color: #fdd6e6;
+}
+.most-sold{
+    text-align: center;
+    padding: 10px;
+}
+.most-sold img{
+    width: 300px;
+    position: relative;
+    left: 150px;
+}
+.most-sold button{
+    background-color: #fd6da9;
+    border-radius: 14px;
+    padding: 7px;
+    border: none;
+    position: relative;
+    right: 50px;
+    bottom: 150px;
+}
+.most-sold p{
+    position: relative;
+    right: 100px;
+    bottom: 150px;
+}
+.most-sold a{
+    text-decoration: none;
+    color: white;
+}
+.button :hover{
+    background-color: #f88eba;
+}
+footer{padding: 30px;
+    background-color: #988B8E;
+    text-align: center;
 }

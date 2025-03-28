@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Winky Sans", sans-serif;
+}
 header{
-    background-color: #E5C3D1;
+    background-color: #f098a5;
 }
 header img{
     width: 150px;
@@ -18,8 +22,27 @@ nav{
 nav a{
     text-decoration: none;
     color: #613F75;
+    border: 2px solid;
+    padding: 7px;
 }
 nav :hover{
     font-size: 21px;
     color: #926ea7;
+    border: none;
+}
+main{
+    padding: 20px;
+    background-color: #E5C3D1;
+}
+.texto{
+    padding: 30px;
+    border: 2px solid;
+}
+.imagen{
+    text-align: center;
+}
+footer{
+    padding: 30px;
+    background-color: #988B8E;
+    text-align: center;
 }

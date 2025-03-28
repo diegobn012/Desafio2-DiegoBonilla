@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Winky Sans", sans-serif;
+}
 header{
     background-color: #f098a5;
 }
@@ -35,9 +39,10 @@ main{
     justify-content: space-between;
 }
 .tarjetas .card-content{
-    border: 3px solid;
+    border: 2px solid;
     width: 200px;
     padding: 20px;
+    border-radius: 10px;
 }
 .tarjetas .price{
     color: #f879ed;
@@ -45,6 +50,40 @@ main{
 .card-content img{
     width: 150px; height: 150px;
 }
-footer{
+.tarjetas :hover{
+    background-color: #fdd6e6;
+}
+.most-sold{
+    text-align: center;
+    padding: 10px;
+}
+.most-sold img{
+    width: 300px;
+    position: relative;
+    right: 150px;
+}
+.most-sold button{
+    background-color: #fd6da9;
+    border-radius: 14px;
+    padding: 7px;
+    border: none;
+    position: relative;
+    left: 50px;
+    bottom: 150px;
+}
+.most-sold p{
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+}
+.most-sold a{
+    text-decoration: none;
+    color: white;
+}
+.button :hover{
+    background-color: #f88eba;
+}
+footer{padding: 30px;
     background-color: #988B8E;
+    text-align: center;
 }
